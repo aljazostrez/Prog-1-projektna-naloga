@@ -58,11 +58,10 @@ def izloci_podatke_avtomobila(blok):
 
 def avtomobili_na_strani(st_strani):
     ime_datoteke = 'spletne-strani/stran-{}.html'.format(st_strani)
-    niz = orodja.vsebina_datoteke(ime_datoteke)
+    vsebina = orodja.vsebina_datoteke(ime_datoteke)
     avti = []
-    for ujemanje in vzorec_bloka.finditer(niz):
-        oglas = ujemanje.group(0)
-        avti.append(oglas)
+    for blok in vzorec_bloka.finditer(vsebina):
+        avti.append(blok.group(0))
     return avti
 
 
