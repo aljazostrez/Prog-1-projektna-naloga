@@ -87,3 +87,4 @@ orodja.zapisi_csv(
     'gorivo', 'prostornina_v_ccm', 'moc_v_kW', 'menjalnik',
     'cena_v_evrih'], 'obdelani-podatki/avtomobili.csv'
     )
+orodja.zapisi_json(avtomobili, 'obdelani-podatki/avtomobili.json')
