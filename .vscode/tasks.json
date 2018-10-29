@@ -8,12 +8,16 @@
             "type": "shell",
             "command": "python",
             "args": [
-             "-i",
-            {
-                "value": "${file}",
-                "quoting": "escape"
+                "-i",
+                {
+                    "value": "${file}",
+                    "quoting": "escape"
+                }
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
             }
-            ]
         }
     ]
 }
