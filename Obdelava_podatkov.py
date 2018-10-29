@@ -22,10 +22,14 @@ vzorec_bloka = re.compile(
 
 podatki_avtomobila = re.compile(
     r'<span>(?P<model>.*?)</span>.*?'
-    r'<ul>.*?<li>(?P<letnik>.*?)</li>.*?(<li>(?P<prevozeni_kilometri>.*?) km</li>)?'
+    # avtomobili, ki nimajo podatka o prevoženih kilometrih,
+    # nas ne zanimajo, zato jih brez slabe vesti izpustimo.
+    r'<ul>.*?<li>(?P<letnik>.*?)</li>.*?<li>(?P<prevozeni_kilometri>.*?) km</li>'
     r'<li>(?P<gorivo>.*?), (?P<prostornina_v_ccm>.*?) ccm, '
     r'(?P<moc_v_kW>.*?) kW\s*?/.*?KM</li><li>(?P<menjalnik>.*?)</li>.*?'
     r'REDNA OBJAVA CENE.*?'
+    # Avtomobili, ki nimajo cene ('Pokličite za ceno') nas
+    # ne zanimajo, zato vzamemo samo tiste, kjer je cena število.
     r'(?P<cena_v_evrih>(\d+\.)?\d+)',
     flags=re.DOTALL
 )
@@ -33,13 +37,19 @@ podatki_avtomobila = re.compile(
 
 def izloci_podatke_avtomobila(blok):
     try:
+        # Tudi, če blok nima podatka o kilometrih oziroma
+        # o ceni, nam bo ta koda vrnila podatke o avtomobilih
+        # in se ne bo ozirala na te oglase
         avto = podatki_avtomobila.search(blok).groupdict()
         avto['model'] = avto['model'].split(' ')[1]
+        # utf-8
+        avto['model'] = avto['model'].replace('è', 'č')
+        avto['model'] = avto['model'].replace('', 'š')
         if 'registracije' in avto['letnik']:
             letnica = avto['letnik'][avto['letnik'].index(':')+1:]
             avto['letnik'] = int(letnica)
         else:
-            avto['letnik'] = 'NOVO'
+            avto['letnik'] = 2018
         avto['prevozeni_kilometri'] = int(avto['prevozeni_kilometri'])
         avto['gorivo'] = avto['gorivo'].split(' ')[0]
         if 'bencin' in avto['gorivo']:
@@ -49,7 +59,7 @@ def izloci_podatke_avtomobila(blok):
         avto['prostornina_v_ccm'] = int(avto['prostornina_v_ccm'])
         avto['moc_v_kW'] = int(avto['moc_v_kW'])
         if avto['menjalnik'][0] == 'r':
-            avto['menjalnik'] = 'rocni'
+            avto['menjalnik'] = 'ročni'
         else:
             avto['menjalnik'] = 'avtomatski'
         if '.' in avto['cena_v_evrih']:
@@ -57,11 +67,12 @@ def izloci_podatke_avtomobila(blok):
         avto['cena_v_evrih'] = int(avto['cena_v_evrih'])
         return avto
     except:
+        # Če blok nima podatka o prevoženih km in ceni, funkcija vrne None
         return None
 
 
 def avtomobili_na_strani(st_strani):
-    ime_datoteke = 'stran-{}.html'.format(st_strani)
+    ime_datoteke = 'spletne-strani/stran-{}.html'.format(st_strani)
     niz = orodja.vsebina_datoteke(ime_datoteke)
     avtomobili = []
     for ujemanje in vzorec_bloka.finditer(niz):
@@ -78,7 +89,7 @@ avtomobili = []
 for st_strani in range(1, 22):
     for avto in avtomobili_na_strani(st_strani):
         podatki = izloci_podatke_avtomobila(avto)
-        if podatki != None:
+        if podatki:
             avtomobili.append(izloci_podatke_avtomobila(avto))
 
 avtomobili.sort(key=lambda y: y['prevozeni_kilometri'])
