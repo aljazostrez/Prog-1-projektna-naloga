@@ -1,5 +1,4 @@
 import re
-
 import orodja
 
 vzorec_bloka = re.compile(
@@ -8,17 +7,6 @@ vzorec_bloka = re.compile(
     flags=re.DOTALL
 )
 
-#with open('stran-1.html', 'r') as dat:
-#    niz = dat.read()
-#
-#l = []
-#for ujemanje in vzorec_bloka.finditer(niz):
-#    oglas = ujemanje.group(0)
-#    if len(oglas) > 20000:
-#        # Problem je le prvi oglas. Da se izognemo
-#        # nadaljnih težav, ga takoj uredimo.
-#        oglas = oglas[26150:]
-#    l.append(oglas)
 
 podatki_avtomobila = re.compile(
     r'<span>(?P<model>.*?)</span>.*?'
@@ -37,9 +25,6 @@ podatki_avtomobila = re.compile(
 
 def izloci_podatke_avtomobila(blok):
     try:
-        # Tudi, če blok nima podatka o kilometrih oziroma
-        # o ceni, nam bo ta koda vrnila podatke o avtomobilih
-        # in se ne bo ozirala na te oglase
         avto = podatki_avtomobila.search(blok).groupdict()
         avto['model'] = avto['model'].split(' ')[1]
         # utf-8
@@ -67,22 +52,18 @@ def izloci_podatke_avtomobila(blok):
         avto['cena_v_evrih'] = int(avto['cena_v_evrih'])
         return avto
     except:
-        # Če blok nima podatka o prevoženih km in ceni, funkcija vrne None
+        # Če blok nima podatka o prevoženih km in ceni, funkcija vrne None.
         return None
 
 
 def avtomobili_na_strani(st_strani):
     ime_datoteke = 'spletne-strani/stran-{}.html'.format(st_strani)
     niz = orodja.vsebina_datoteke(ime_datoteke)
-    avtomobili = []
+    avti = []
     for ujemanje in vzorec_bloka.finditer(niz):
         oglas = ujemanje.group(0)
-        if len(oglas) > 20000:
-            # Problem je le prvi oglas. Da se izognemo
-            # nadaljnih težav, ga takoj uredimo.
-            oglas = oglas[26150:]
-        avtomobili.append(oglas)
-    return avtomobili
+        avti.append(oglas)
+    return avti
 
 
 avtomobili = []
@@ -92,7 +73,8 @@ for st_strani in range(1, 22):
         if podatki:
             avtomobili.append(izloci_podatke_avtomobila(avto))
 
-avtomobili.sort(key=lambda y: y['prevozeni_kilometri'])
+avtomobili.sort(key=lambda y: y['letnik'])
+
 orodja.zapisi_csv(
     avtomobili, ['model', 'letnik', 'prevozeni_kilometri',
     'gorivo', 'prostornina_v_ccm', 'moc_v_kW', 'menjalnik',
