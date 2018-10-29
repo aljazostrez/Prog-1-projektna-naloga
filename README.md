@@ -29,10 +29,10 @@ avtomobilov je bilo določenega leta največ?
 V mapi spletne-strani so html-ji vseh spletnih strani, iz katerih smo črpali podatke. Podatke smo zajeli s pomočjo skripte Zajem_podatkov.py, obdelali pa s pomočjo skripte Obdelava_podatkov.py. S to skripto in modulom orodja.py smo izdelali datoteki *.csv in *.json. V mapi obdelani-podatki sta datoteki avtomobili.csv, ki vsebuje tabelo z naslednjimi vrednostmi:
 * model (avtomobila)
 * letnik
-* prevozeni_kilometri (Prevoženi kilometri)
+* prevozeni_kilometri (prevoženi kilometri)
 * gorivo (vrsta goriva)
-* prostornina_v_ccm (Prostornina \[ccm\])
-* moc_v_kW (Moč \[kW\])
+* prostornina_v_ccm (prostornina \[ccm\])
+* moc_v_kW (moč \[kW\])
 * menjalnik (vrsta menjalnika)
 * cena_v_evrih (cena \[€\])
 
