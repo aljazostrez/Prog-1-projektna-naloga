@@ -21,3 +21,14 @@ Delovne hipoteze:
 največ kilometrov?
 * Kateri avtomobili so bili najbolj popularni v določenih letih, tj. katerih
 avtomobilov je bilo določenega leta največ?
+
+V mapi spletne-strani so html-ji vseh spletnih strani, iz katerih smo črpali podatke. Podatke smo zajeli s pomočjo skripte Zajem_podatkov.py, obdelali pa s pomočjo skripte Obdelava_podatkov.py. S to skripto in modulom orodja.py smo izdelali datoteki *.csv in *.json. V mapi obdelani-podatki sta datoteki avtomobili.csv, ki vsebuje tabelo z naslednjimi vrednostmi:
+* model (avtomobila)
+* letnik
+* prevozeni_kilometri (Prevoženi kilometri)
+* gorivo (vrsta goriva)
+* prostornina_v_ccm (Prostornina \[ccm\])
+* moc_v_kW (Moč \[kW\])
+* menjalnik (vrsta menjalnika)
+* cena_v_evrih (cena \[€\])
+in datoteka avtomobili.json z istimi vrednostmi.
