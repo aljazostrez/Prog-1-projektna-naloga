@@ -1,5 +1,7 @@
 # Analiza novih in rabljenih avtomobilov
 
+## Načrt dela
+
 Analiziral bom 1000 novih in rabljenih avtomobilov znamke Volkswagen na spletni 
 strani [avto.net](https://www.avto.net/Ads/results.asp?znamka=Volkswagen), kjer se
 vsakodnevno objavi več sto avtomobilskih oglasov. Zajel sem le podatke z oglasov,
@@ -22,6 +24,8 @@ največ kilometrov?
 * Kateri avtomobili so bili najbolj popularni v določenih letih, tj. katerih
 avtomobilov je bilo določenega leta največ?
 
+## Zajem in obdelava podatkov
+
 V mapi spletne-strani so html-ji vseh spletnih strani, iz katerih smo črpali podatke. Podatke smo zajeli s pomočjo skripte Zajem_podatkov.py, obdelali pa s pomočjo skripte Obdelava_podatkov.py. S to skripto in modulom orodja.py smo izdelali datoteki *.csv in *.json. V mapi obdelani-podatki sta datoteki avtomobili.csv, ki vsebuje tabelo z naslednjimi vrednostmi:
 * model (avtomobila)
 * letnik
@@ -31,4 +35,5 @@ V mapi spletne-strani so html-ji vseh spletnih strani, iz katerih smo črpali po
 * moc_v_kW (Moč \[kW\])
 * menjalnik (vrsta menjalnika)
 * cena_v_evrih (cena \[€\])
+
 in datoteka avtomobili.json z istimi vrednostmi.
