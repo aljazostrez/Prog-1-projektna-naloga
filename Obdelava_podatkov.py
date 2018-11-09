@@ -45,9 +45,19 @@ def izloci_podatke_avtomobila(blok):
             avto['letnik'] = int(letnica)
         else:
             avto['letnik'] = 2018
-        avto['gorivo'] = avto['gorivo'].split(' ')[0]
+        # Če ima avto podatke o prevoženih kilometrih, bo naš regex
+        # izraz to upošteval že v ključu 'gorivo', zato to napako
+        # odpravimo zdaj, in sicer ročno (to ni težko, ker možnosti
+        # ni veliko). Na koncu celo ugotovimo, da sta v našem primeru
+        # možnosti samo dve: bencin in dizel.
         if 'bencin' in avto['gorivo']:
             avto['gorivo'] = 'bencin'
+        elif 'elektro' in avto['gorivo']:
+            avto['gorivo'] = 'elektrika'
+        elif 'hibrid' in avto['gorivo']:
+            avto['gorivo'] = 'hibrid'
+        elif 'plin' in avto['gorivo']:
+            avto['gorivo'] = 'bencin + plin'
         else:
             avto['gorivo'] = 'dizel'
         avto['prostornina_v_ccm'] = int(avto['prostornina_v_ccm'])

@@ -2,7 +2,7 @@
     {
         "model": "Hrošč",
         "letnik": 1972,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1200,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -12,7 +12,7 @@
     {
         "model": "Hrošč",
         "letnik": 1976,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1200,
         "moc_v_kW": 27,
         "menjalnik": "ročni",
@@ -162,7 +162,7 @@
     {
         "model": "Golf",
         "letnik": 1992,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -182,7 +182,7 @@
     {
         "model": "Polo",
         "letnik": 1994,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1272,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -192,7 +192,7 @@
     {
         "model": "Passat",
         "letnik": 1994,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 66,
         "menjalnik": "ročni",
@@ -202,7 +202,7 @@
     {
         "model": "Golf",
         "letnik": 1995,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1598,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -222,7 +222,7 @@
     {
         "model": "Golf",
         "letnik": 1995,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -242,7 +242,7 @@
     {
         "model": "Polo",
         "letnik": 1995,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 129,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -252,7 +252,7 @@
     {
         "model": "Polo",
         "letnik": 1996,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -282,7 +282,7 @@
     {
         "model": "Golf",
         "letnik": 1996,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -342,7 +342,7 @@
     {
         "model": "Polo",
         "letnik": 1997,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -382,7 +382,7 @@
     {
         "model": "Passat",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -402,7 +402,7 @@
     {
         "model": "Golf",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -462,7 +462,7 @@
     {
         "model": "Polo",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1391,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -472,7 +472,7 @@
     {
         "model": "Golf",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -482,7 +482,7 @@
     {
         "model": "Polo",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -512,7 +512,7 @@
     {
         "model": "Sharan",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -522,7 +522,7 @@
     {
         "model": "Passat",
         "letnik": 1998,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -592,7 +592,7 @@
     {
         "model": "Passat",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 92,
         "menjalnik": "ročni",
@@ -622,7 +622,7 @@
     {
         "model": "Passat",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -642,7 +642,7 @@
     {
         "model": "Golf",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -702,7 +702,7 @@
     {
         "model": "Lupo",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -732,7 +732,7 @@
     {
         "model": "Passat",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -752,7 +752,7 @@
     {
         "model": "Polo",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -802,7 +802,7 @@
     {
         "model": "Polo",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -812,7 +812,7 @@
     {
         "model": "Polo",
         "letnik": 1999,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1000,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -822,7 +822,7 @@
     {
         "model": "Beetle",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 85,
         "menjalnik": "ročni",
@@ -832,7 +832,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 74,
         "menjalnik": "ročni",
@@ -862,7 +862,7 @@
     {
         "model": "Passat",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -892,7 +892,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -912,7 +912,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -922,7 +922,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -942,7 +942,7 @@
     {
         "model": "Passat",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 2327,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -982,7 +982,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1002,7 +1002,7 @@
     {
         "model": "Golf",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1042,7 +1042,7 @@
     {
         "model": "Polo",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -1062,7 +1062,7 @@
     {
         "model": "Polo",
         "letnik": 2000,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -1112,7 +1112,7 @@
     {
         "model": "Polo",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -1122,7 +1122,7 @@
     {
         "model": "Lupo",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -1142,7 +1142,7 @@
     {
         "model": "Polo",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 37,
         "menjalnik": "ročni",
@@ -1152,7 +1152,7 @@
     {
         "model": "Golf",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1162,7 +1162,7 @@
     {
         "model": "Golf",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1172,7 +1172,7 @@
     {
         "model": "Passat",
         "letnik": 2001,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -1312,7 +1312,7 @@
     {
         "model": "Golf",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1352,7 +1352,7 @@
     {
         "model": "Polo",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "avtomatski",
@@ -1392,7 +1392,7 @@
     {
         "model": "Lupo",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -1422,7 +1422,7 @@
     {
         "model": "Polo",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1452,7 +1452,7 @@
     {
         "model": "Lupo",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -1462,7 +1462,7 @@
     {
         "model": "Polo",
         "letnik": 2002,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1199,
         "moc_v_kW": 47,
         "menjalnik": "ročni",
@@ -1542,7 +1542,7 @@
     {
         "model": "Passat",
         "letnik": 2003,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1781,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -1552,7 +1552,7 @@
     {
         "model": "Polo",
         "letnik": 2003,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1622,7 +1622,7 @@
     {
         "model": "Golf",
         "letnik": 2003,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 2792,
         "moc_v_kW": 150,
         "menjalnik": "ročni",
@@ -1682,7 +1682,7 @@
     {
         "model": "Polo",
         "letnik": 2003,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "avtomatski",
@@ -1712,7 +1712,7 @@
     {
         "model": "Polo",
         "letnik": 2003,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -1842,7 +1842,7 @@
     {
         "model": "Golf",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -2022,7 +2022,7 @@
     {
         "model": "Golf",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 66,
         "menjalnik": "ročni",
@@ -2072,7 +2072,7 @@
     {
         "model": "Polo",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1198,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -2082,7 +2082,7 @@
     {
         "model": "Golf",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -2102,7 +2102,7 @@
     {
         "model": "Golf",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1598,
         "moc_v_kW": 85,
         "menjalnik": "ročni",
@@ -2122,7 +2122,7 @@
     {
         "model": "Polo",
         "letnik": 2004,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1199,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -2252,7 +2252,7 @@
     {
         "model": "Passat",
         "letnik": 2005,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -2512,7 +2512,7 @@
     {
         "model": "Passat",
         "letnik": 2005,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -2592,7 +2592,7 @@
     {
         "model": "Golf",
         "letnik": 2005,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1598,
         "moc_v_kW": 85,
         "menjalnik": "ročni",
@@ -2652,7 +2652,7 @@
     {
         "model": "Polo",
         "letnik": 2005,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1198,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -2742,7 +2742,7 @@
     {
         "model": "Passat",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 147,
         "menjalnik": "ročni",
@@ -2782,7 +2782,7 @@
     {
         "model": "Fox",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1198,
         "moc_v_kW": 40,
         "menjalnik": "ročni",
@@ -2892,7 +2892,7 @@
     {
         "model": "Fox",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -2902,7 +2902,7 @@
     {
         "model": "Golf",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 147,
         "menjalnik": "avtomatski",
@@ -2962,7 +2962,7 @@
     {
         "model": "Golf",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -2982,7 +2982,7 @@
     {
         "model": "Polo",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -3092,7 +3092,7 @@
     {
         "model": "Fox",
         "letnik": 2006,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -3152,7 +3152,7 @@
     {
         "model": "Polo",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -3192,7 +3192,7 @@
     {
         "model": "Polo",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -3252,7 +3252,7 @@
     {
         "model": "Polo",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -3322,7 +3322,7 @@
     {
         "model": "Golf",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -3332,7 +3332,7 @@
     {
         "model": "Fox",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 55,
         "menjalnik": "ročni",
@@ -3392,7 +3392,7 @@
     {
         "model": "Golf",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -3432,7 +3432,7 @@
     {
         "model": "Golf",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -3442,7 +3442,7 @@
     {
         "model": "Polo",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -3572,7 +3572,7 @@
     {
         "model": "Passat",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 3189,
         "moc_v_kW": 184,
         "menjalnik": "avtomatski",
@@ -3612,7 +3612,7 @@
     {
         "model": "Polo",
         "letnik": 2007,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1198,
         "moc_v_kW": 51,
         "menjalnik": "ročni",
@@ -3662,7 +3662,7 @@
     {
         "model": "Golf",
         "letnik": 2008,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1595,
         "moc_v_kW": 75,
         "menjalnik": "ročni",
@@ -3862,7 +3862,7 @@
     {
         "model": "Scirocco",
         "letnik": 2008,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 118,
         "menjalnik": "ročni",
@@ -4192,7 +4192,7 @@
     {
         "model": "Scirocco",
         "letnik": 2008,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 118,
         "menjalnik": "ročni",
@@ -4312,7 +4312,7 @@
     {
         "model": "Golf",
         "letnik": 2009,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1798,
         "moc_v_kW": 118,
         "menjalnik": "ročni",
@@ -4402,7 +4402,7 @@
     {
         "model": "Scirocco",
         "letnik": 2009,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 90,
         "menjalnik": "ročni",
@@ -4482,7 +4482,7 @@
     {
         "model": "Golf",
         "letnik": 2009,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 90,
         "menjalnik": "ročni",
@@ -4522,7 +4522,7 @@
     {
         "model": "CrossTouran",
         "letnik": 2009,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 103,
         "menjalnik": "ročni",
@@ -4682,7 +4682,7 @@
     {
         "model": "Polo",
         "letnik": 2010,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 63,
         "menjalnik": "ročni",
@@ -4852,7 +4852,7 @@
     {
         "model": "Scirocco",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 155,
         "menjalnik": "ročni",
@@ -4982,7 +4982,7 @@
     {
         "model": "Touran",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -4992,7 +4992,7 @@
     {
         "model": "Golf",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -5032,7 +5032,7 @@
     {
         "model": "Polo",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -5072,7 +5072,7 @@
     {
         "model": "Golf",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 90,
         "menjalnik": "ročni",
@@ -5082,7 +5082,7 @@
     {
         "model": "Golf",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 59,
         "menjalnik": "ročni",
@@ -5332,7 +5332,7 @@
     {
         "model": "Golf",
         "letnik": 2011,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -5562,7 +5562,7 @@
     {
         "model": "Golf",
         "letnik": 2012,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 90,
         "menjalnik": "avtomatski",
@@ -5622,7 +5622,7 @@
     {
         "model": "Golf",
         "letnik": 2012,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 90,
         "menjalnik": "avtomatski",
@@ -5972,7 +5972,7 @@
     {
         "model": "Golf",
         "letnik": 2013,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -5992,7 +5992,7 @@
     {
         "model": "Beetle",
         "letnik": 2013,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1390,
         "moc_v_kW": 118,
         "menjalnik": "ročni",
@@ -6012,7 +6012,7 @@
     {
         "model": "CrossGolf",
         "letnik": 2013,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1197,
         "moc_v_kW": 77,
         "menjalnik": "ročni",
@@ -6152,7 +6152,7 @@
     {
         "model": "up!",
         "letnik": 2013,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -6312,7 +6312,7 @@
     {
         "model": "Golf",
         "letnik": 2013,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1395,
         "moc_v_kW": 90,
         "menjalnik": "ročni",
@@ -6602,7 +6602,7 @@
     {
         "model": "up!",
         "letnik": 2014,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 999,
         "moc_v_kW": 44,
         "menjalnik": "ročni",
@@ -6772,7 +6772,7 @@
     {
         "model": "Golf",
         "letnik": 2014,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 169,
         "menjalnik": "avtomatski",
@@ -7152,7 +7152,7 @@
     {
         "model": "Golf",
         "letnik": 2014,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 220,
         "menjalnik": "avtomatski",
@@ -7822,7 +7822,7 @@
     {
         "model": "Golf",
         "letnik": 2015,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 221,
         "menjalnik": "avtomatski",
@@ -8352,7 +8352,7 @@
     {
         "model": "Golf",
         "letnik": 2015,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1395,
         "moc_v_kW": 92,
         "menjalnik": "ročni",
@@ -8562,7 +8562,7 @@
     {
         "model": "Golf",
         "letnik": 2016,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 221,
         "menjalnik": "avtomatski",
@@ -8602,7 +8602,7 @@
     {
         "model": "Golf",
         "letnik": 2016,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 162,
         "menjalnik": "avtomatski",
@@ -8772,7 +8772,7 @@
     {
         "model": "Golf",
         "letnik": 2017,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1498,
         "moc_v_kW": 110,
         "menjalnik": "ročni",
@@ -8862,7 +8862,7 @@
     {
         "model": "Golf",
         "letnik": 2018,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 180,
         "menjalnik": "avtomatski",
@@ -8952,7 +8952,7 @@
     {
         "model": "Golf",
         "letnik": 2018,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1984,
         "moc_v_kW": 228,
         "menjalnik": "avtomatski",
@@ -8962,7 +8962,7 @@
     {
         "model": "Tiguan",
         "letnik": 2018,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1395,
         "moc_v_kW": 93,
         "menjalnik": "ročni",
@@ -9112,7 +9112,7 @@
     {
         "model": "Golf",
         "letnik": 2018,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1498,
         "moc_v_kW": 96,
         "menjalnik": "ročni",
@@ -9132,7 +9132,7 @@
     {
         "model": "Golf",
         "letnik": 2018,
-        "gorivo": "dizel",
+        "gorivo": "bencin",
         "prostornina_v_ccm": 1498,
         "moc_v_kW": 96,
         "menjalnik": "ročni",
