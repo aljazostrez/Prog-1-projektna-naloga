@@ -10,10 +10,8 @@ vzorec_bloka = re.compile(
 
 podatki_avtomobila = re.compile(
     r'<span>(?P<model>.*?)</span>.*?'
-    # avtomobili, ki nimajo podatka o prevoženih kilometrih,
-    # nas ne zanimajo, zato jih brez slabe vesti izpustimo.
-    r'<ul>.*?<li>(?P<letnik>.*?)</li>.*?<li>(?P<prevozeni_kilometri>.*?) km</li>'
-    r'<li>(?P<gorivo>.*?), (?P<prostornina_v_ccm>.*?) ccm, '
+    r'<ul>.*?<li>(?P<letnik>.*?)</li>.*?'
+    r'<li>(?P<gorivo>.*?) motor, (?P<prostornina_v_ccm>.*?) ccm, '
     r'(?P<moc_v_kW>.*?) kW\s*?/.*?KM</li><li>(?P<menjalnik>.*?)</li>.*?'
     r'REDNA OBJAVA CENE.*?'
     # Avtomobili, ki nimajo cene ('Pokličite za ceno') nas
@@ -22,6 +20,10 @@ podatki_avtomobila = re.compile(
     flags=re.DOTALL
 )
 
+kilometri = re.compile(
+    r'<li>(?P<prevozeni_kilometri>[0-9]{0,7}) km</li><li>.*? motor',
+    flags=re.DOTALL
+)
 
 def izloci_podatke_avtomobila(blok):
     try:
@@ -30,12 +32,19 @@ def izloci_podatke_avtomobila(blok):
         # utf-8
         avto['model'] = avto['model'].replace('è', 'č')
         avto['model'] = avto['model'].replace('', 'š')
+        # če avto ni nov, a vseeno nima napisanih kilometrov,
+        # ga za našo analizo podatkov izpustimo.
+        if 'NOVO' in avto['letnik']:
+            avto['prevozeni_kilometri'] = 0
+        else:
+            avto['prevozeni_kilometri'] = int(
+                kilometri.search(blok).group(1)
+                )
         if 'registracije' in avto['letnik']:
             letnica = avto['letnik'][avto['letnik'].index(':')+1:]
             avto['letnik'] = int(letnica)
         else:
             avto['letnik'] = 2018
-        avto['prevozeni_kilometri'] = int(avto['prevozeni_kilometri'])
         avto['gorivo'] = avto['gorivo'].split(' ')[0]
         if 'bencin' in avto['gorivo']:
             avto['gorivo'] = 'bencin'
@@ -52,7 +61,8 @@ def izloci_podatke_avtomobila(blok):
         avto['cena_v_evrih'] = int(avto['cena_v_evrih'])
         return avto
     except:
-        # Če blok nima podatka o prevoženih km in ceni, funkcija vrne None.
+        # Če blok nima podatka o prevoženih km (in avto ni nov),
+        # funkcija vrne None.
         return None
 
 
