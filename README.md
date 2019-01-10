@@ -37,3 +37,6 @@ V mapi spletne-strani so html-ji vseh spletnih strani, iz katerih smo črpali po
 * cena_v_evrih (cena \[€\])
 
 in datoteka avtomobili.json z istimi vrednostmi.
+
+## Končna analiza
+Analiza podatkov je v datoteki analiza_podatkov.ipynb.
