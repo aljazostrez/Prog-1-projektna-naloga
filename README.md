@@ -18,7 +18,7 @@ Za vsak avtomobilski oglas bom zajel:
 
 Delovne hipoteze:
 * Kako avtomobilom pada cena v primerjavi z opravljenimi kilometri oz. letnikom?
-* Katera vrsta avtomobila najbolje ohranja ceno glede na leto?
+* Katera vrsta avtomobila najbolje ohranja ceno glede na letnik?
 * Glede na oglase, ali lahko napovemo, s katerim avtomobilom bomo lahko naredili
 največ kilometrov?
 * Kateri avtomobili so bili najbolj popularni v določenih letih, tj. katerih

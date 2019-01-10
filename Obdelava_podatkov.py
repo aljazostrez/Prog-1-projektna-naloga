@@ -92,7 +92,7 @@ for st_strani in range(1, 22):
         if podatki:
             avtomobili.append(izloci_podatke_avtomobila(avto))
 
-avtomobili.sort(key=lambda y: y['letnik'])
+avtomobili.sort(key=lambda y: y['model'])
 
 orodja.zapisi_csv(
     avtomobili, ['model', 'letnik', 'prevozeni_kilometri',
